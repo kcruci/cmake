@@ -1,0 +1,211 @@
+<cacheconfig  desc="crc32(key)最低1，2位，如12345的45">
+	<user  desc="48 实例 crc32(uid)用户核心数据，分片 " slice="1">
+		<redis bid="0" eid="1"    password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="2" eid="3"    password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="4" eid="5"    password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="6" eid="7"    password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="8" eid="9"    password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="10" eid="11"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="12" eid="13"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="14" eid="15"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="16" eid="17"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="18" eid="19"  password="" ip="127.0.0.1" port="20000" /> 
+		                          
+		<redis bid="20" eid="21"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="22" eid="23"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="24" eid="25"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="26" eid="27"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="28" eid="29"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="30" eid="31"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="32" eid="33"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="34" eid="35"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="36" eid="37"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="38" eid="39"  password="" ip="127.0.0.1" port="20000" /> 
+		                         
+		<redis bid="40" eid="41"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="42" eid="43"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="44" eid="45"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="46" eid="47"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="48" eid="49"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="50" eid="51"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="52" eid="53"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="54" eid="55"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="56" eid="57"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="58" eid="59"  password="" ip="127.0.0.1" port="20000" /> 
+
+		<redis bid="60" eid="61"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="62" eid="63"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="64" eid="65"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="66" eid="67"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="68" eid="69"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="70" eid="71"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="72" eid="73"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="74" eid="75"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="76" eid="77"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="78" eid="79"  password="" ip="127.0.0.1" port="20000" /> 
+		
+		<redis bid="80" eid="81"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="82" eid="83"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="84" eid="85"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="86" eid="87"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="88" eid="90"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="91" eid="93"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="94" eid="96"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="97" eid="99"  password="" ip="127.0.0.1" port="20000" /> 
+
+	</user>
+	
+	<loginauth  desc="16 实例，登录状态，分片" slice="1">
+		<redis bid="0" eid="5"		password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="6" eid="11"		password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="12" eid="17"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="18" eid="23" 	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="24" eid="29"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="30" eid="35"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="36" eid="41"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="42" eid="47"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="48" eid="53"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="54" eid="59"	password="" ip="127.0.0.1" port="20000" /> 
+
+		<redis bid="60" eid="65"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="66" eid="71"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="72" eid="78"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="79" eid="85"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="86" eid="92"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="93" eid="99"	password="" ip="127.0.0.1" port="20000" /> 
+		
+	</loginauth>
+	
+	
+	<userfriend  desc="32实例，用户关系链好友cache" slice="1">
+		<redis bid="0" eid="2" 	  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="3" eid="5" 	  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="6" eid="8" 	  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="9" eid="11"   password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="12" eid="14"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="15" eid="17"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="18" eid="20"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="21" eid="23"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="24" eid="26"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="27" eid="29"  password="" ip="127.0.0.1" port="20000" /> 
+		                     
+		<redis bid="30" eid="32"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="33" eid="35"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="36" eid="38"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="39" eid="41"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="42" eid="44"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="45" eid="47"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="48" eid="50"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="51" eid="53"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="54" eid="56"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="57" eid="59"  password="" ip="127.0.0.1" port="20000" /> 
+		                        
+		<redis bid="60" eid="62"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="63" eid="65"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="66" eid="68"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="69" eid="71"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="72" eid="74"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="75" eid="77"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="78" eid="80"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="81" eid="83"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="84" eid="87"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="88" eid="91"  password="" ip="127.0.0.1" port="20000" /> 
+		                       
+		<redis bid="92" eid="95"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="96" eid="99"  password="" ip="127.0.0.1" port="20000" /> 
+	</userfriend>
+	
+	<usermail  desc="32 实例，邮件list，50条上限" slice="1">
+		<redis bid="0" eid="2" 	  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="3" eid="5" 	  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="6" eid="8" 	  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="9" eid="11"   password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="12" eid="14"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="15" eid="17"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="18" eid="20"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="21" eid="23"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="24" eid="26"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="27" eid="29"  password="" ip="127.0.0.1" port="20000" /> 
+		                     
+		<redis bid="30" eid="32"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="33" eid="35"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="36" eid="38"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="39" eid="41"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="42" eid="44"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="45" eid="47"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="48" eid="50"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="51" eid="53"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="54" eid="56"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="57" eid="59"  password="" ip="127.0.0.1" port="20000" /> 
+		                        
+		<redis bid="60" eid="62"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="63" eid="65"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="66" eid="68"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="69" eid="71"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="72" eid="74"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="75" eid="77"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="78" eid="80"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="81" eid="83"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="84" eid="87"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="88" eid="91"  password="" ip="127.0.0.1" port="20000" /> 
+		                       
+		<redis bid="92" eid="95"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="96" eid="99"  password="" ip="127.0.0.1" port="20000" /> 
+	</usermail>
+	
+	<rankinfo  desc="5 主实例，5从实例，信息排行，master slave" slice="1">
+		<group bid="0" eid="19">
+			<redis password="" ip="127.0.0.1" port="20000" master="1" /> 
+			<redis password="" ip="127.0.0.1" port="20000" master="0" /> 
+		</group>
+		<group bid="20" eid="39">
+			<redis password="" ip="127.0.0.1" port="20000" master="1" /> 
+			<redis password="" ip="127.0.0.1" port="20000" master="0" /> 
+		</group>
+		<group bid="40" eid="59">
+			<redis password="" ip="127.0.0.1" port="20000" master="1" /> 
+			<redis password="" ip="127.0.0.1" port="20000" master="0" /> 
+		</group>
+		<group bid="60" eid="79">
+			<redis password="" ip="127.0.0.1" port="20000" master="1" /> 
+			<redis password="" ip="127.0.0.1" port="20000" master="0" /> 
+		</group>   
+		<group bid="80" eid="99">
+			<redis password="" ip="127.0.0.1" port="20000" master="1" /> 
+			<redis password="" ip="127.0.0.1" port="20000" master="0" /> 
+		</group> 		
+	</rankinfo>
+
+	<modbitmap  desc="16 实例，worker redis bitmap，分片" slice="1">
+		<redis bid="0" eid="5"		password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="6" eid="11"		password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="12" eid="17"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="18" eid="23" 	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="24" eid="29"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="30" eid="35"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="36" eid="41"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="42" eid="47"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="48" eid="53"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="54" eid="59"	password="" ip="127.0.0.1" port="20000" /> 
+
+		<redis bid="60" eid="65"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="66" eid="71"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="72" eid="78"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="79" eid="85"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="86" eid="92"	password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="93" eid="99"	password="" ip="127.0.0.1" port="20000" /> 
+	</modbitmap>
+	
+	<others desc="单实例，存在线人数，注册人数" slice="0">
+        <redis password=""  ip="127.0.0.1" port="20000" /> 
+	</others>
+
+    <pvp desc ="PVP对战:包括四个战区队列、对战详情的存储、对战人数等" slice="0">
+        <redis password=""  ip="127.0.0.1" port="20000" /> 
+    </pvp>
+
+	<uidcache desc="openid - uid" slice="1">
+		<redis bid="0" eid="49"  password="" ip="127.0.0.1" port="20000" /> 
+		<redis bid="50" eid="99"  password="" ip="127.0.0.1" port="20000" /> 
+	</uidcache>
+</cacheconfig>
